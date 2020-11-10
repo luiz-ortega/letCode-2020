@@ -1,0 +1,9 @@
+.card-holder {
+  .card {
+    margin: 0 20px;
+  }
+
+  .card:last-child {
+    margin-left: 0;
+  }
+}

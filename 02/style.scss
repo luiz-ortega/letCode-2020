@@ -1,0 +1,14 @@
+.card-holder {
+  display: flex;
+  align-items: flex-start;
+  height: 100px;
+
+  .card {
+    margin: 0 20px;
+    min-height: 50px;
+  }
+
+  .card:hover .card:not(.disabled) {
+    min-height: 100px;
+  }
+}
